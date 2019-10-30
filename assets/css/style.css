@@ -1,3 +1,100 @@
-.container {
-  display: inline-block;
+.text-center {
+ text-align: center; 
 }
+
+
+
+
+/*-----------------HEADING----------------------*/
+
+
+
+.navbar .navbar-nav a {
+    opacity: 0.7;
+}
+
+.navbar .navbar-nav a:hover {
+    opacity: 1;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+.navbar navbar-brand i {
+    opacity: 0.7;
+} 
+
+.navbar .navbar-brand i:hover {
+    opacity: 1;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+.navbar-brand {
+    background: url("../images/air-ballon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  width: 50px;
+  height: 55px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    border-radius: 20px;
+}
+
+
+.modal-footer .btn btn-primary {
+opacity: 0.9;
+}
+
+.modal-footer .btn btn-primary:hover {
+    opacity: 1;
+    transform: scale(1.4);
+}
+
+#videos-section .video-air-ballon, 
+#videos-section .video-paragliding, 
+#videos-section .video-scuba-diving {
+    opacity: 0.9;
+}
+
+#videos-section .video-air-ballon:hover,
+#videos-section .video-paragliding:hover,
+#videos-section .video-scuba-diving:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+footer {
+    background: lightblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    padding: 50px;
+}
+
+.copyright {
+    font-size: 15px;
+    margin: 0;
+    color: #fafafa;
+}
+
+.social-media-links li a i {
+    font-size: 65px;
+    padding: 20px;
+    text-align: center;
+    color: #fafafa;
+    line-height: 3px;
+    opacity: 0.9;
+}
+
+.social-media-links li a i:hover {
+transform: scale(1.1); 
+ opacity: 1.0;
+}
+
+
