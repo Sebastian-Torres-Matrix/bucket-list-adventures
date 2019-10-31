@@ -13,10 +13,10 @@
 </head>
 
 <body>
-<!--NAVBAR-->
-    <nav class="navbar sticky-top navbar-expand-sm navbar-light" style="background-color: #e3f2fd;">
-      <div class="collapse navbar-collapse" id="navbarNavDropdown class="text-center">
-        <a class="navbar-brand" href="#home-section"><!--<i class="fa fa-home" aria-hidden="true">--></i></a>
+<!--------------------------NAVBAR--------------------------------------------->
+    <nav class="navbar sticky-top navbar-expand-sm navbar-light" style="background-color: lightblue;">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <a class="navbar-brand" href="#home-section"><!--<i class="fa fa-home" aria-hidden="true"></i>--></a>
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -39,18 +39,18 @@
         </div>
    <div class="d-flex flex-fill"></div>
     </nav>
-<!--NAVBAR-->
+<!-------------------------/NAVBAR--------------------------------------------->
 
 
-<!--LANDING PAGE-->
+<!-------------------------LANDING PAGE---------------------------------------->
 <div class="container-fluid landing-page-container">
    <section class="text-center" id="home-section">
    <h1>Bucket List Adventures</h1>
-      <p><i>Where dreames come true</i></p>
+      <p><i>"Where dreames come true"</i></p>
   <div class="row">
     <div class="col">
    
-      <!--CAROUSEL-->
+<!----------------------------CAROUSEL----------------------------------------->
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -77,12 +77,11 @@
     <span class="sr-only">Next</span>
   </a>
       </div>
-      <!--CAROUSEL-->
-
+<!---------------------------/CAROUSEL----------------------------------------->
     </div>
   </div>
 
-  <!--MODAL-->
+<!----------------------------MODAL-------------------------------------------->
   <div>
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Order Now!</button>
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -102,37 +101,29 @@
 
               <div class="form-check">
                 <label class="form-check-label">
-    <input class="form-check-input" type="radio" name="exampleRadios"value="option1" checked="">
-    Air Ballon, 99$
-  </label>
+    <input class="form-check-input" type="radio" checked="">Air Ballon, 99$</label>
               </div>
 
               <div class="form-check">
                 <label class="form-check-label">
-    <input class="form-check-input" type="radio" name="exampleRadios" value="option2">
-    Paragliding, 85$
-  </label>
+    <input class="form-check-input" type="radio">Paragliding, 99$</label>
               </div>
 
               <div class="form-check">
                 <label class="form-check-label">
-    <input class="form-check-input" type="radio" name="exampleRadios" value="option2">
-    Scuba Diving, 90$
-  </label>
+    <input class="form-check-input" type="radio">Scuba Diving, 99$ <span class="badge badge-primary">Popular!</span></label>
               </div>
 
               <div class="form-group">
-                <label for="recipient-name" class="col-form-label"></label>
-                <input type="text" class="form-control" placeholder="Name:" id="recipient-name">
+                <input type="text" class="form-control" placeholder="Name:">
               </div>
 
               <div class="form-group">
-                <label for="recipient-name" class="col-form-label"></label>
-                <input type="text" class="form-control" placeholder="Email:" id="recipient-name">
+                
+                <input type="text" class="form-control" placeholder="Email:">
               </div>
 
               <div class="form-group">
-                <label for="message-text" class="col-form-label"></label>
                 <textarea class="form-control" id="message-text" placeholder="Message:" rows="5"></textarea>
               </div>
 
@@ -142,7 +133,7 @@
           <div class="modal-footer mr-auto">
            <a href="https://www.paypal.com/se/home" target="_blank"><button type="button" class="btn btn-primary btn-lg">Payment</button></a>
           </div>
-          <!--MODAL-->
+<!---------------------------/MODAL-------------------------------------------->
 
         </div>
       </div>
@@ -150,82 +141,84 @@
   </div>
 </section>
 </div>
-<!--LANDING PAGE-->
+<!-------------------------/LANDING PAGE--------------------------------------->
 
 
-<!--GALLERY section-->
+<!-------------------------GALLERY Section------------------------------------->
 <div class="container-fluid gallery-container">
  <section id="gallery-section" class="text-center">
- <h1 class="section-title">GALLERY</h1>
+ <h1>Bucket List Adventures</h1>
+ <h2>GALLERY</h2>
   <div class="row">
   
     <div class="col-md-4">
-      <img src="assets/images/air-ballon.jpg" class="rounded" width=320 height=250 alt="Air Ballon image">
+      <img src="assets/images/air-ballon.jpg" class="rounded" width=380 height=300 alt="Air Ballon image">
       <h3 class="text-uppercase image-name">Air Ballon</h3>
-      <div class="d-block">
-       <img src="assets/images/air-ballon.jpg" class="rounded-circle my-2" width=90 height=90 alt="Air Ballon image">
+      <div class="d-block img-rounded">
+       <img src="assets/images/girl-image.png" class="rounded-circle image-rounded  my-2" width=90 height=90 alt="Air Ballon image">
      </div>
      <div class="media-body">
-      <blockquote class="blockquote">
-      <p>Best day ever!</p>
-      <p>- David Ottis</p>
+      <blockquote>
+      <p class="blockquote">"Best day ever!"</p>
+      <p class="blockquote">- Julie Dox</p>
       </blockquote>
       </div>
     </div>
 
     <div class="col-md-4">
-      <img src="assets/images/paragliding.jpg" class="rounded" width=320 height=250 alt="Paragliding image">
+      <img src="assets/images/paragliding.jpg" class="rounded" width=380 height=300 alt="Paragliding image">
       <h3 class="text-uppercase image-name">Paragliding</h3>
-      <div class="d-block">
-       <img src="assets/images/air-ballon.jpg" class="rounded-circle my-2" width=90 height=90 alt="Air Ballon image">
+      <div class="d-block img-rounded">
+       <img src="assets/images/guy-image.png" class="rounded-circle image-rounded my-2" width=90 height=90 alt="Air Ballon image">
      </div>
      <div class="media-body">
-      <blockquote class="blockquote">
-      <p>Best day ever!</p>
-      <p>- David Ottis</p>
+      <blockquote>
+      <p class="blockquote">"Very cool"!</p>
+      <p class="blockquote">- David Ottis</p>
       </blockquote>
       </div>
     </div>
 
     <div class="col-md-4">
-      <img src="assets/images/scuba-diving.jpg" class="rounded" width=320 height=250 alt="Scuba diving image">
+      <img src="assets/images/scuba-diving.jpg" class="rounded" width=380 height=300 alt="Scuba diving image">
       <h3 class="text-uppercase image-name">Scuba Diving</h3>
-      <div class="d-block">
-       <img src="assets/images/air-ballon.jpg" class="rounded-circle my-2" width=90 height=90 alt="Air Ballon image">
+      <div class="d-block img-rounded">
+       <img src="assets/images/me-image.jpg" class="rounded-circle image-rounded my-2" width=90 height=90 alt="Air Ballon image">
      </div>
      <div class="media-body">
-      <blockquote class="blockquote">
-      <p>Best day ever!</p>
-      <p>- David Ottis</p>
+      <blockquote>
+      <p class="blockquote">"What an experience!"</p>
+      <p class="blockquote">- Sebastian Torres</p>
       </blockquote>
       </div>
     </div>
     
-  </div>
-   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Order Now!</button>
+  </div class="btn-gallery">
+   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Order Now!</button>
 </section>
 </div>
-<!--GALLERY section-->
+<!------------------------/GALLERY Section------------------------------------->
 
 
-<!--VIDEOS section-->
+<!-------------------------VIDEOS Section-------------------------------------->
 <div class="container-fluid videos-container">
  <section id="videos-section" class="text-center">
- <h1 class="section-title">VIDEOS</h1>
-  <div class="row no-gutter">
+ <h1>Bucket List Adventures</h1>
+ <h2>VIDEOS</h2>
+  <div class="row">
 
     <div class="col-md-4">
-      <video class="video-air-ballon rounded" src="https://www.youtube.com/watch?v=NdTalMWrQ7c" controls></video>
+      <video class="video-adventures rounded" src="https://www.youtube.com/watch?v=NdTalMWrQ7c" controls></video>
       <h3 class="text-uppercase video-name">Air Ballon</h3>
     </div>
 
     <div class="col-md-4">
-      <video class="video-paragliding rounded" src="assets/videos/.mp4" controls></video>
+      <video class="video-adventures rounded" src="assets/videos/.mp4" controls></video>
       <h3 class="text-uppercase video-name">Paragliding</h3>
     </div>
 
     <div class="col-md-4">
-      <video class="video-scuba-diving rounded" src="assets/videos/.mp4" controls></video>
+      <video class="video-adventures rounded" src="assets/videos/.mp4" controls></video>
       <h3 class="text-uppercase video-name">Scuba Diving</h3>
     </div>
     
@@ -233,25 +226,26 @@
   <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Order Now!</button>
 </section>
 </div>
-<!--VIDEOS section-->
+<!------------------------/VIDEOS Section-------------------------------------->
 
     
-<!--CONTACT section-->
-<div class="container-fluid contact-container"> 
-<section id="contact-section" class="text-center">
-<h1 class="section-title">CONTACT</h1>
-  <div class="row no-gutters">
+<!------------------------CONTACT Section-------------------------------------->
+<div class="container-fluid contact-container justify-content-center"> 
+<section id="contact-section">
+<h1 class="text-center">CONTACT</h1>
+  <div class="row">
 
-    <div class="col-md-6">
-      <div class="rounded">
-        <h3>Bucket List Adventures wishes you a great day! </h3>
-        <p class="text-uppercase music-name">Summer</p>
+<!--------------------------AUDIO---------------------------------------------->
+    <div class="col-md-6 text-center audio-container">
+        <p>Bucket List Adventures wishes you a great day!</p>
+        <h3 class="text-uppercase music-name">Summer</h3>
         <audio src="assets/audio/summer.mp3" controls></audio>
       </div>
-    </div>
+<!-------------------------/AUDIO---------------------------------------------->
 
-    <div class="col-md-6 rounded">
-      <h3 class="section-title">Contact us</h3>
+<!-----------------------CONTACT FORM------------------------------------------>
+    <div class="col-md-6 contact-us-container">
+      <h3>Contact us</h3>
       <form target="_blank">
         <input type="text" name="firstname" placeholder="Name:">
         <br>
@@ -261,20 +255,20 @@
         <br>
         <input type="submit" value="Send">
       </form>
+<!----------------------/CONTACT FORM------------------------------------------>
     </div>
   </div>
 </section>
  </div>
-<!--CONTACT section-->
+<!-----------------------/CONTACT Section-------------------------------------->
 
 
-<!--FOOTER-->
-
+<!------------------------FOOTER----------------------------------------------->
 <footer class="container-fluid text-center">
   <div class="row no-gutters">
     <div class="col">
 
-      <!--SOCIAL MEDIA Links-->
+<!----------------------SOCIAL MEDIA LINKS------------------------------------->
       <ul class="list-inline social-media-links">
         <li class="list-inline-item">
           <a href="https://www.facebook.com/" target="_blank">
@@ -300,14 +294,14 @@
           </a>
         </li>
       </ul>
-      <!--SOCIAL MEDIA Links-->
+<!---------------------/SOCIAL MEDIA LINKS------------------------------------->
 
       <p class="copyright">Copyright © Bucket List Adventures 2019. All rights reserved.</p>
 
     </div>
   </div>
 </footer>
-<!--FOOTER-->
+<!-----------------------/FOOTER----------------------------------------------->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
