@@ -1,77 +1,137 @@
-
-
 body {
     font-family: 'Roboto', sans-serif;
-        color: #fafafa;
-        font-weight: 500;
-        line-height: 1.1;
-    }
+    color: #fafafa;
+    font-weight: 500;
+}
 
 h1 {
-    margin-bottom: 20px;
+    margin-top: 30px;
+    padding: 15px;
     font-weight: 600;
-    font-size: 50px;
-        padding-bottom: 8px;
 }
-
-h2, h3 {
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-size: 30px;
-        padding-bottom: 2px;
-}
-
 
 p {
- margin-top: 0;
-    margin-bottom: 40px;
+    margin-top: 0;
+    margin-bottom: 30px;
     font-size: 20px;
     font-weight: 500;
 }
-   
-@media screen and (max-width: 768px) {
-    body { padding-top: 0px; }
+
+h2 {
+    margin-bottom: 20px;
+    text-decoration: underline;
 }
 
-.video-adventures {
-    height: 300px;
-    width: 400px;
+h4 {
+    padding: 2px;
+    margin: 10px 0px 80px 0px;
 }
 
-.audio-container {
- padding: 50px 120px 0px 0px;
-    margin: 0;
+.gallery-subtitle {
+    padding: 2px;
+    margin: 10px 0px 20px 0px;
 }
 
-.blockquote {
-    margin-top: 5px;
-    margin-bottom: 15px;
+h5 {
+    padding: 2px;
+    margin-top: 40px;
 }
 
-.img-rounded {
-    margin-top: 20px;
+.quote-text {
+    margin-top: 6px;
+    margin-bottom: 0px;
 }
 
-/*--------------------NAVBAR----------------------------*/
-
-.navbar-alert {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
+.quote-name {
+    margin-bottom: 25px;
 }
+
+.modal-title {
+    padding: 2px;
+    margin-top: 0px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 30%;
+}
+
+.carousel {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.img-carousel {
+    width: 80%;
+    height: 200px;
+}
+
+.img-gallery {
+    width: 90%;
+    height: 220px;
+    -webkit-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: block;
+}
+
+.navbar-brand {
+    background: url("../images/air-ballon.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+.landing-page-container,
+.gallery-container,
+.videos-container,
+.contact-container {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-page-container,
+.videos-container {
+    background: url("../images/bg-luke-chesser.jpg") no-repeat center center fixed;
+}
+
+.gallery-container,
+.contact-container {
+    background: url("../images/bg-luke-chesser2.jpg") lightblue no-repeat center center fixed;
+}
+
+/*
+.videos-container {
+    background: url("../images/bg-luke-chesser3.jpg") no-repeat center center fixed;
+}
+
+.contact-container {
+    background: url("../images/bg-luke-chesser4.jpg") no-repeat center center fixed;
+}
+*/
 
 .navbar {
     display: block;
 }
 
-.navbar .navbar-toggler {
-    border: 0px;
-}
-
 .navbar .navbar-nav a {
-    opacity: 0.7;
+    opacity: 0.8;
     font-size: large;
 }
 
@@ -91,189 +151,72 @@ p {
     transform: scale(1.2);
 }
 
-.navbar-brand {
-    background: url("../images/air-ballon.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50px;
-    height: 50px;
-    transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
-    border-radius: 20px;
-    margin-left: 5px;
-}
-
-/*--------------------/NAVBAR----------------------------*/
-
-
-/*--------------------BUTTONS----------------------------*/ 
-
 .btn-primary {
     color: #fff;
     background-color: #97d92d;
     border: 0px;
-    margin-top: 50px;
+    margin-bottom: 70px;
 }
 
-.btn-gallery .btn-primary {
-    margin-bottom: 20px;
+.btn-success {
+    color: #fff;
+    background-color: #97d92d;
+    border: 0px;
+    margin-top: 20px;
 }
 
-/*--------------------/BUTTONS----------------------------*/
-
-
-/*--------------------HOVER----------------------------*/
-
-.video-adventures,
-.social-media-links li a i, 
-.rounded-circle {
-    opacity: 0.9;
-}
-
-.video-adventures:hover, 
-.social-media-links li a i:hover, 
-.rounded-circle:hover {
-    opacity: 1;
-    transform: scale(1.1);
-}
-
-
-.rounded {
-    padding: 20px;
-}
-
-.rounded:hover {
-    transform: scale(1.2);
-}
-
-/*--------------------/HOVER----------------------------*/
-
-
-/*--------------------BACKGROUND----------------------------*/
-
-.landing-page-container, 
-.gallery-container,
-.videos-container,
-.contact-container {
-    height: 100vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.landing-page-container {
-    background: url("../images/bg-luke-chesser.jpg") no-repeat center center fixed;
-}
-
-.gallery-container {
-    background: url("../images/bg-luke-chesser2.jpg") lightblue no-repeat center center fixed;
-}
-
-.videos-container {
-    background: url("../images/bg-luke-chesser3.jpg") no-repeat center center fixed;
-}
-
-.contact-container {
-    background: url("../images/bg-luke-chesser4.jpg") no-repeat center center fixed;
-}
-
-/*--------------------/BACKGROUND----------------------------*/
-
-
-/*--------------------MODAL----------------------------*/
-
-.modal-content {
-    background-color: lightblue;
-    border: 5px solid #fafafa;
-    border-radius: 5px;
+.btn-warning {
+    color: #fff;
+    background-color: #97d92d;
+    border: 0px;
 }
 
 .modal-header {
     display: block;
     height: 80px;
     border-bottom: 1px solid white;
+    margin-bottom: 10px;
 }
 
 .modal-body {
-    display: block;
-    padding: 5px 25px;
+    padding: 0px 16px;
+}
+
+.modal-content {
+    background-color: lightblue;
+    border: 5px solid #fafafa;
+    border-radius: 5px;
+    width: 350px;
+    height: 500px;
 }
 
 .modal-footer {
-    padding: 5px 0px 10px 46px;
     border-top: 0;
+    padding: 0px 16px;
 }
 
-/*--------------------/MODAL----------------------------*/
-
-
-/*--------------------FORM----------------------------*/
-
-.contact-us-container {
-    padding: 40px 0px 0px 190px;
-    margin: 0;
+.media-hover {
+    opacity: 0.9;
 }
 
-.form-check-label {
-    margin: 5px 0px 5px 20px;
-    display: table;
-    font-weight: 700;
+.media-hover:hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
-
-.form-group {
-    margin: 0px 0px 0px 20px;
-    width: 400px
-}
-
-textarea {
-    width: 186px;
-}
-
-label {
-    display: block;
-}
-
-/*--------------------/FORM----------------------------*/
-
-
-/*--------------------FOOTER & SOCIAL MEDIA ICONS----------------------------*/
 
 footer {
-    background: lightblue;
+    background: #16167f;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 150px;
-    margin: 0;
-    padding: 50px;
-}
-
-.nav-link {
-    color: green;
 }
 
 .social-media-links li a i {
-    font-size: 65px;
-    padding: 20px;
-    text-align: center;
+    font-size: 40px;
     color: #fafafa;
-    line-height: 3px
 }
 
 .copyright {
     font-size: 15px;
-    margin: 0;
     color: #fafafa;
 }
-
-/*--------------------/FOOTER & SOCIAL MEDIA ICONS----------------------------*/
-
-
-
