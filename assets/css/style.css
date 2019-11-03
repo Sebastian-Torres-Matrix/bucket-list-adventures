@@ -4,6 +4,10 @@ body {
     font-weight: 500;
 }
 
+.container-fluid {
+        padding: 48px 16px;
+}
+
 /*------------------HEADINGS & TEXT------------------*/
 
 h1 {
@@ -111,20 +115,18 @@ h5 {
     margin-left: 5px;
 }
 
-@media (min-width: 576px) {
-    .navbar .navbar-nav a {
-        opacity: 0.8;
-        font-size: large;
-    }
-
-    .navbar .navbar-nav a:hover {
-        opacity: 1;
-        font-weight: bold;
-        transform: scale(1.2);
-    }
+.navbar .navbar-nav a {
+    opacity: 0.8;
+    font-size: large;
 }
 
-@media (max-width: 576px) {
+.navbar .navbar-nav a:hover {
+    opacity: 1;
+    font-weight: bold;
+}
+
+
+@media (max-width: 767px) {
     .navbar-nav {
         text-align: right;
     }
@@ -229,7 +231,7 @@ h5 {
     transform: scale(1.1);
 }
 
-/*
+
 .navbar navbar-brand i {
     opacity: 0.7;
 }
@@ -239,7 +241,7 @@ h5 {
     font-weight: bold;
     transform: scale(1.2);
 }
-*/
+
 
 /*------------------/HOVER------------------*/
 
