@@ -4,6 +4,8 @@ body {
     font-weight: 500;
 }
 
+/*------------------HEADINGS & TEXT------------------*/
+
 h1 {
     margin-top: 30px;
     padding: 15px;
@@ -27,11 +29,6 @@ h4 {
     margin: 10px 0px 80px 0px;
 }
 
-.gallery-subtitle {
-    padding: 2px;
-    margin: 10px 0px 20px 0px;
-}
-
 h5 {
     padding: 2px;
     margin-top: 40px;
@@ -51,9 +48,18 @@ h5 {
     margin-top: 0px;
 }
 
+.gallery-subtitle {
+    padding: 2px;
+    margin: 10px 0px 20px 0px;
+}
+
+/*------------------/HEADINGS & TEXT------------------*/
+
+/*------------------CAROUSEL------------------*/
+
 .carousel-control-prev,
 .carousel-control-next {
-    width: 30%;
+    width: 10%;
 }
 
 .carousel {
@@ -63,8 +69,16 @@ h5 {
 
 .img-carousel {
     width: 80%;
-    height: 200px;
+    /* height: 200px; */
 }
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: block;
+}
+
+/*------------------/CAROUSEL------------------*/
 
 .img-gallery {
     width: 90%;
@@ -74,11 +88,14 @@ h5 {
     box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
 }
 
-.carousel-item-next,
-.carousel-item-prev,
-.carousel-item.active {
-    display: block;
+.video-shadow {
+    -webkit-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
+    -moz-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
 }
+
+
+/*------------------NAVBAR------------------*/
 
 .navbar-brand {
     background: url("../images/air-ballon.jpg");
@@ -94,6 +111,29 @@ h5 {
     margin-left: 5px;
 }
 
+@media (min-width: 576px) {
+    .navbar .navbar-nav a {
+        opacity: 0.8;
+        font-size: large;
+    }
+
+    .navbar .navbar-nav a:hover {
+        opacity: 1;
+        font-weight: bold;
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: right;
+    }
+}
+
+/*------------------/NAVBAR------------------*/
+
+/*------------------BACKGROUNDS------------------*/
+
 .landing-page-container,
 .gallery-container,
 .videos-container,
@@ -106,50 +146,25 @@ h5 {
     justify-content: center;
 }
 
-.landing-page-container,
-.videos-container {
-    background: url("../images/bg-luke-chesser.jpg") no-repeat center center fixed;
+.landing-page-container {
+    background: url("../images/1bg.jpg") no-repeat center center fixed;
 }
 
-.gallery-container,
-.contact-container {
-    background: url("../images/bg-luke-chesser2.jpg") lightblue no-repeat center center fixed;
+.gallery-container {
+    background: url("../images/2bg.jpg") no-repeat center center fixed;
 }
 
-/*
 .videos-container {
-    background: url("../images/bg-luke-chesser3.jpg") no-repeat center center fixed;
+    background: url("../images/3bg.jpg") no-repeat center center fixed;
 }
 
 .contact-container {
-    background: url("../images/bg-luke-chesser4.jpg") no-repeat center center fixed;
-}
-*/
-
-.navbar {
-    display: block;
+    background: url("../images/2bg.jpg") no-repeat center center fixed;
 }
 
-.navbar .navbar-nav a {
-    opacity: 0.8;
-    font-size: large;
-}
+/*------------------/BACKGROUNDS------------------*/
 
-.navbar .navbar-nav a:hover {
-    opacity: 1;
-    font-weight: bold;
-    transform: scale(1.2);
-}
-
-.navbar navbar-brand i {
-    opacity: 0.7;
-}
-
-.navbar .navbar-brand i:hover {
-    opacity: 1;
-    font-weight: bold;
-    transform: scale(1.2);
-}
+/*------------------BUTTONS------------------*/
 
 .btn-primary {
     color: #fff;
@@ -171,6 +186,10 @@ h5 {
     border: 0px;
 }
 
+/*------------------/BUTTONS------------------*/
+
+/*------------------MODAL, Landing Page------------------*/
+
 .modal-header {
     display: block;
     height: 80px;
@@ -188,12 +207,18 @@ h5 {
     border-radius: 5px;
     width: 350px;
     height: 500px;
+    margin-left: 16%;
 }
 
 .modal-footer {
     border-top: 0;
     padding: 0px 16px;
+    margin-bottom: 20px;
 }
+
+/*------------------/MODAL, Landing Page------------------*/
+
+/*------------------HOVER------------------*/
 
 .media-hover {
     opacity: 0.9;
@@ -204,8 +229,24 @@ h5 {
     transform: scale(1.1);
 }
 
+/*
+.navbar navbar-brand i {
+    opacity: 0.7;
+}
+
+.navbar .navbar-brand i:hover {
+    opacity: 1;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+*/
+
+/*------------------/HOVER------------------*/
+
+/*------------------FOOTER (Social Media & Copywright------------------*/
+
 footer {
-    background: #16167f;
+    background: #343a40;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -220,3 +261,39 @@ footer {
     font-size: 15px;
     color: #fafafa;
 }
+
+/*------------------/FOOTER (Social Media & Copywright------------------*/
+
+/*------------------MEDIA QUERIES------------------*/
+
+@media (min-width: 1200px) {
+    .img-carousel {
+        height: 100%;
+        width: 55%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 40%;
+    }
+}
+
+@media (min-width: 992px) {
+    .img-carousel {
+        height: 450px;
+    }
+}
+
+@media (min-width: 768px) {
+    .img-carousel {
+        height: 350px;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-carousel {
+        height: 250px;
+    }
+}
+
+/*------------------/MEDIA QUERIES------------------*/
