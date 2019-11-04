@@ -59,55 +59,49 @@ h5 {
 
 /*------------------/HEADINGS & TEXT------------------*/
 
-/*------------------CAROUSEL------------------*/
+/*------------------BACKGROUNDS------------------*/
 
-.carousel-control-prev,
-.carousel-control-next {
-    width: 10%;
+.landing-page-container,
+.gallery-container,
+.videos-container,
+.contact-container {
+    background-size: cover;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
 }
 
-.carousel {
-    position: relative;
-    margin-bottom: 20px;
+.landing-page-container {
+    background: url("../images/bg-landing-page.jpg") no-repeat center center fixed;
 }
 
-.img-carousel {
-    width: 80%;
-    /* height: 200px; */
+.gallery-container {
+    background: url("../images/bg-gallery.jpg") no-repeat center center fixed;
 }
 
-.carousel-item-next,
-.carousel-item-prev,
-.carousel-item.active {
-    display: block;
+.videos-container {
+    background: url("../images/bg-videos.jpg") no-repeat center center fixed;
 }
 
-/*------------------/CAROUSEL------------------*/
-
-.img-gallery {
-    width: 90%;
-    height: 220px;
-    -webkit-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
-    -moz-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
-    box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
+.contact-container {
+    background: url("../images/bg-contact.jpg") no-repeat center center fixed;
 }
 
-.video-shadow {
-    -webkit-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
-    -moz-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
-    box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
-}
-
+/*------------------/BACKGROUNDS------------------*/
 
 /*------------------NAVBAR------------------*/
 
 .navbar-brand {
-    background: url("../images/air-ballon.jpg");
+    background: url("../images/navbar-icon-airballon.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 50px;
     height: 50px;
+    -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
@@ -125,7 +119,6 @@ h5 {
     font-weight: bold;
 }
 
-
 @media (max-width: 767px) {
     .navbar-nav {
         text-align: right;
@@ -134,61 +127,29 @@ h5 {
 
 /*------------------/NAVBAR------------------*/
 
-/*------------------BACKGROUNDS------------------*/
+/*------------------CAROUSEL------------------*/
 
-.landing-page-container,
-.gallery-container,
-.videos-container,
-.contact-container {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10%;
 }
 
-.landing-page-container {
-    background: url("../images/1bg.jpg") no-repeat center center fixed;
+.carousel {
+    position: relative;
+    margin-bottom: 20px;
 }
 
-.gallery-container {
-    background: url("../images/2bg.jpg") no-repeat center center fixed;
+.img-carousel {
+    width: 80%;
 }
 
-.videos-container {
-    background: url("../images/3bg.jpg") no-repeat center center fixed;
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+    display: block;
 }
 
-.contact-container {
-    background: url("../images/2bg.jpg") no-repeat center center fixed;
-}
-
-/*------------------/BACKGROUNDS------------------*/
-
-/*------------------BUTTONS------------------*/
-
-.btn-primary {
-    color: #fff;
-    background-color: #97d92d;
-    border: 0px;
-    margin-bottom: 70px;
-}
-
-.btn-success {
-    color: #fff;
-    background-color: #97d92d;
-    border: 0px;
-    margin-top: 20px;
-}
-
-.btn-warning {
-    color: #fff;
-    background-color: #97d92d;
-    border: 0px;
-}
-
-/*------------------/BUTTONS------------------*/
+/*------------------/CAROUSEL------------------*/
 
 /*------------------MODAL, Landing Page------------------*/
 
@@ -220,6 +181,46 @@ h5 {
 
 /*------------------/MODAL, Landing Page------------------*/
 
+/*------------------BUTTONS------------------*/
+
+.btn-primary {
+    color: #fff;
+    background-color: #97d92d;
+    border: 0px;
+    margin-bottom: 70px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #97d92d;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #97d92d;
+    border: 0px;
+}
+
+/*------------------/BUTTONS------------------*/
+
+/*------------------SHADOW------------------*/
+
+.img-gallery {
+    width: 90%;
+    height: 220px;
+    -webkit-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
+}
+
+.video-shadow {
+    -webkit-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
+}
+
+/*------------------/SHADOW------------------*/
+
 /*------------------HOVER------------------*/
 
 .media-hover {
@@ -228,9 +229,10 @@ h5 {
 
 .media-hover:hover {
     opacity: 1;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
-
 
 .navbar navbar-brand i {
     opacity: 0.7;
@@ -239,9 +241,10 @@ h5 {
 .navbar .navbar-brand i:hover {
     opacity: 1;
     font-weight: bold;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
-
 
 /*------------------/HOVER------------------*/
 
