@@ -5,7 +5,7 @@ body {
 }
 
 .container-fluid {
-        padding: 48px 16px;
+    padding: 48px 16px;
 }
 
 /*------------------HEADINGS & TEXT------------------*/
@@ -295,6 +295,17 @@ footer {
 @media (max-width: 576px) {
     .img-carousel {
         height: 250px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .img-gallery {
+        width: 70%;
+    }
+
+    .responsive-576 {
+        width: 80%;
+        margin-left: 60px;
     }
 }
 
