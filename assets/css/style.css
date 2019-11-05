@@ -8,14 +8,38 @@ body {
     padding: 48px 16px;
 }
 
+.container-footer {
+    padding: 25px 0px 0px 0px;
+}
+
 .fa-video-camera,
 .fa-camera {
     font-size: 40px;
     padding: 20px;
 }
 
+.fa-arrow-down {
+    color: #fafafa;
+}
+
+
+a {
+    color: #fafafa;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #fafafa;
+    text-decoration: none;
+}
+
 .navbar-collapse {
-        justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.card-title {
+    margin: 16px 0px;
 }
 
 .card {
@@ -33,16 +57,16 @@ body {
 }
 
 .jumbotron {
-  padding: 0px;
+    padding: 1px 0px;
     margin: 0px auto;
     max-width: 80%;
     max-height: min-content;
-    background-color: #f1f1f199;
+    background-color: #343a40;
 }
 
 .display-4 {
     font-weight: 300;
-    line-height: 0.8;
+    line-height: 1.1;
     font-size: xx-large;
     margin: 0;
 }
@@ -55,6 +79,7 @@ h1 {
     font-weight: 600;
 }
 
+
 p {
     margin-top: 0;
     margin-bottom: 30px;
@@ -62,21 +87,22 @@ p {
     font-weight: 500;
 }
 
+
 h2 {
     margin-bottom: 20px;
     text-decoration: underline;
 }
 
+
 h3 {
     font-size: 20px;
     margin-bottom: 0;
     line-height: 0;
-    margin-inline-end: auto;
 }
 
 h4 {
     padding: 2px;
-    margin: 10px 0px 80px 0px;
+    margin: 10px 0px 40px 0px;
 }
 
 h5 {
@@ -112,11 +138,12 @@ h5 {
 .videos-container,
 .contact-container {
     background-size: cover;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+   
+   
+    
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
+   
+   
     justify-content: center;
 }
 
@@ -147,10 +174,7 @@ h5 {
     background-size: cover;
     width: 50px;
     height: 50px;
-    -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
     border-radius: 20px;
     margin-left: 5px;
 }
@@ -260,13 +284,11 @@ h5 {
 .img-gallery {
     width: 90%;
     height: auto;
-    -webkit-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
     box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
 }
 
 .card,
 .video-shadow {
-    -webkit-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
     box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
 }
 
@@ -274,26 +296,25 @@ h5 {
 
 /*------------------HOVER------------------*/
 
-.media-hover {
+.media-hover,
+.fa-arrow-down,
+.fa-video-camera,
+.fa-camera {
     opacity: 0.9;
 }
 
-.media-hover:hover {
+.navbar-brand:hover,
+.media-hover:hover,
+.fa-arrow-down:hover,
+.fa-video-camera:hover,
+.fa-camera:hover {
     opacity: 1;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
     transform: scale(1.1);
-}
-
-.navbar navbar-brand i {
-    opacity: 0.7;
 }
 
 .navbar .navbar-brand i:hover {
     opacity: 1;
     font-weight: bold;
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
     transform: scale(1.2);
 }
 
@@ -332,15 +353,15 @@ footer {
     .carousel-control-next {
         width: 40%;
     }
+
+    .jumbotron {
+        max-width: 55%;
+    }
 }
 
 @media (min-width: 992px) {
     .img-carousel {
         height: 450px;
-    }
-    
-    .jumbotron {
-    max-width: 55%;
     }
 }
 
