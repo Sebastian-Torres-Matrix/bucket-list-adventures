@@ -12,6 +12,20 @@ body {
     padding: 25px 0px 0px 0px;
 }
 
+.card-header {
+    font-size: large;
+    border-bottom: solid 1px #767676;
+}
+
+.card-title {
+    font-size: large;
+}
+
+
+.card-text {
+    font-size: small;
+}
+
 .fa-video-camera,
 .fa-camera {
     font-size: 40px;
