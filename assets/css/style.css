@@ -8,6 +8,45 @@ body {
     padding: 48px 16px;
 }
 
+.fa-video-camera,
+.fa-camera {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.navbar-collapse {
+        justify-content: flex-end;
+}
+
+.card {
+    margin: auto;
+    border: none;
+}
+
+.card-header,
+.card-body {
+    background-color: #343a40;
+}
+
+.card-body {
+    padding-top: 0px;
+}
+
+.jumbotron {
+  padding: 0px;
+    margin: 0px auto;
+    max-width: 80%;
+    max-height: min-content;
+    background-color: #f1f1f199;
+}
+
+.display-4 {
+    font-weight: 300;
+    line-height: 0.8;
+    font-size: xx-large;
+    margin: 0;
+}
+
 /*------------------HEADINGS & TEXT------------------*/
 
 h1 {
@@ -26,6 +65,13 @@ p {
 h2 {
     margin-bottom: 20px;
     text-decoration: underline;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+    line-height: 0;
+    margin-inline-end: auto;
 }
 
 h4 {
@@ -149,6 +195,10 @@ h5 {
     display: block;
 }
 
+.carousel-inner {
+    width: auto;
+}
+
 /*------------------/CAROUSEL------------------*/
 
 /*------------------MODAL, Landing Page------------------*/
@@ -187,7 +237,7 @@ h5 {
     color: #fff;
     background-color: #97d92d;
     border: 0px;
-    margin-bottom: 70px;
+    margin: 0px;
 }
 
 .btn-success {
@@ -209,11 +259,12 @@ h5 {
 
 .img-gallery {
     width: 90%;
-    height: 220px;
+    height: auto;
     -webkit-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
     box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
 }
 
+.card,
 .video-shadow {
     -webkit-box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
     box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
@@ -286,6 +337,10 @@ footer {
 @media (min-width: 992px) {
     .img-carousel {
         height: 450px;
+    }
+    
+    .jumbotron {
+    max-width: 55%;
     }
 }
 
