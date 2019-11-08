@@ -9,21 +9,24 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon-bla.png">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
 </head>
 
 <body>
   <!-- NAVBAR -->
+  <!--Navbar has a dark theme that makes a clear contrast to the white text color -->
   <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+    <!--Brand has more life to it, with a image as the logo-->
     <a class="navbar-brand" href="#home-section"></a>
-    <h3>BL Adventures</h3>
+    <a class="mr-auto" href="#home-section"><h3>BL Adventures</h3></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-    
   </button>
+  <!-- collapse button is visible for smart phones, to make it more user friendly-->
     <div class="collapse navbar-collapse ml-auto justify-content-flex-end;" id="navbarNavDropdown">
       <ul class="navbar-nav">
+<!--Links in the navbar get higligthed when hovered, for better UX -->
         <li class="nav-item active mr-4">
           <a class="nav-link" href="#gallery-section" style="color: white;">Gallery</a>
         </li>
@@ -47,6 +50,8 @@
       </div>
     </div>
     <!-- CAROUSEL -->
+    <!--Carousel takes up a big size of the landing page, with visual content of services, to get the customer curious 
+    about the products and the company-->
     <div class="row">
       <div class="col-12">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -89,10 +94,13 @@
     <!-- /CAROUSEL -->
 
     <!-- JUMBOTRON -->
+    <!--Jumbotron, to highlight and welcome potential customers with brief information
+    and spark further curiosity-->
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
         <h1 class="display-4">The best adventures in Dublin! <i class="fa fa-thumbs-o-up"></i></h1>
-        <p class="lead">We offer the top 3 most desired bucket list adventures. Come and join us here in Dublin to live out your dreams. Our team takes care of you and makes sure, that you get a safe, enjoyable and unforgettable experience!</p>
+        <p class="lead">We offer the top 3 most desired bucket list adventures. Come and join us here in Dublin to live out your dreams. 
+        Our team takes care of you and makes sure that you get a safe, enjoyable and unforgettable experience!</p>
         <p>For more information about our adventures, see down below
           <a href="#gallery-section"><i class="fa fa-arrow-down"></i></a></p>
       </div>
@@ -100,55 +108,56 @@
     <!-- /JUMBOTRON -->
 
     <!-- MODAL -->
+    <!--Modal, all "Order now! buttons on the website are linked to it -->
     <div class="row">
       <div class="col-12 py-1">
+        <!-- BUTTON, Landing page -->
         <button type="button" class="btn btn-primary btn-md media-hover mt-4" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Order Now!</button>
+        <!-- BUTTON, Landing page -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
+            <!--Modal form, with straigtforward price information and option for easy purchase-->
             <div class="modal-content">
-
               <div class="modal-header text-center">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">x</span></button>
                 <h5 class="modal-title d-block" id="exampleModalLabel"><b>Bucket List Adventures</b></h5>
                 <h6 class="d-block mr-4"><i>"Where dreams come true"</i></h6>
               </div>
-
               <div class="modal-body">
+                <!-- FORM, Modal -->
                 <form>
+                  <!--Form is minimalistic and strightforward, easy to make a purchase.
+                  Form has the same color theme as the rest of the website, to not overload customers-->
                   <div class="form-check text-left my-1 ml-2">
                     <label class="form-check-label">
     <input class="form-check-input" type="radio" name="adventures" value="adventures1" checked=""><b>Air Ballon, 99$</b></label>
                   </div>
-
                   <div class="form-check text-left my-1 ml-2">
                     <label class="form-check-label">
     <input class="form-check-input" type="radio" name="adventures" value="adventures2"><b>Paragliding, 99$</b></label>
                   </div>
-
                   <div class="form-check text-left ml-2">
                     <label class="form-check-label">
     <input class="form-check-input" type="radio" name="adventures" value="adventures3"><b>Scuba Diving, 99$</b> <span class="badge badge-primary">Popular!</span></label>
                   </div>
-
                   <div class="form-group">
                     <input type="text" class="form-control mr-4 mt-3" placeholder="Name:">
                   </div>
-
                   <div class="form-group">
                     <input type="text" class="form-control mr-2" placeholder="Email:">
                   </div>
-
                   <div class="form-group">
                     <textarea class="form-control mr-4" id="message-text" placeholder="Message:" rows="5"></textarea>
                   </div>
-
                 </form>
+                <!-- FORM, Modal -->
               </div>
-
+              <!-- BUTTON, Modal Form-->
               <div class="modal-footer">
                 <a href="https://www.paypal.com/se/home" target="_blank" class="btn btn-warning btn-md media-hover" role="button">Payment</a>
               </div>
+              <!-- /BUTTON, Modal Form-->
               <!-- /MODAL -->
             </div>
           </div>
@@ -165,6 +174,7 @@
         <h1>Bucket List Adventures</h1>
         <i class="fa fa-camera" aria-hidden="true"></i>
         <h2>GALLERY</h2>
+        <!--Gallery shows the services that are offered. For smaller devices it shows one image at a time, for better UX-->
       </div>
     </div>
     <div class="row">
@@ -172,6 +182,8 @@
         <img src="assets/images/gallery-airballon.jpg" class="img-gallery media-hover my-2" width=380 height=300 alt="Air Ballon image">
         <h4 class="gallery-subtitle ">Air Ballon</h4>
         <img src="assets/images/gallery-girl-quote.png" class="rounded-circle media-hover mt-4" width=90 height=90 alt="Air Ballon image ">
+       <!--Quotes from past customers, gives potential customer ataste of what other think about the products provided.
+       For smaller devices it shows one image at a time, for better UX-->
         <p class="quote-text">"Best day ever! "</p>
         <p class="quote-name">- Julie Dox</p>
       </div>
@@ -190,14 +202,15 @@
         <p class="quote-name">- Sebastian Torres</p>
       </div>
     </div>
+    <!-- BUTTON, Gallery section -->
     <div class="row">
       <div class="col-12 my-4">
         <button type="button" class="btn btn-primary media-hover" data-toggle="modal" data-target="#exampleModal">Order Now!</button>
       </div>
     </div>
+    <!-- /BUTTON, Gallery section -->
   </section>
   <!-- /GALLERY Section -->
-
   <!-- VIDEOS Section -->
   <section class="container-fluid videos-container text-center" id="videos-section">
     <div class="row">
@@ -205,78 +218,92 @@
         <h1>Bucket List Adventures</h1>
         <i class="fa fa-video-camera" aria-hidden="true"></i>
         <h2>VIDEOS</h2>
+         <!--Videos with visual content of the products that are offered. 
+         For smaller device only one video and card show at a time, for better UX -->
       </div>
     </div>
-
+    <!-- VIDEO, Air ballon -->
     <div class="row responsive-576">
       <div class="col-md-4 py-2">
         <div class="embed-responsive embed-responsive-16by9 text-center video-shadow">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QYPe6JtL7bA" allowfullscreen></iframe>
         </div>
+        <!-- /VIDEO, Air ballon -->
         <div>
           <h4>Air Ballon</h4>
         </div>
-
+        <!-- CARDS, Air ballon -->
+<!--Cards are placed under each product, with price and information about the product.
+Color theme for the cards follow the same pattern as the rest of the website, to keep it clean and simple-->
         <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
-          <div class="card-header">99€ / person</div>
+          <div class="card-header">199€ / person</div>
           <div class="card-body">
             <h5 class="card-title">Experience Dublin from above, one life-time experience!</h5>
-            <p class="card-text">
               <ul class="card-text text-left">
-                <li>60 min</li>
+                <li>60 min ballon ride</li>
                 <li>Gear and insurance included</li>
-            </p>
+            </ul>
           </div>
         </div>
       </div>
+      <!-- /CARDS, Air ballon -->
       <div class="col-md-4 py-2">
+        <!-- VIDEO, Paragliding -->
         <div class="embed-responsive embed-responsive-16by9 video-shadow">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LLgbWMPI5l0" allowfullscreen></iframe>
         </div>
+        <!-- /VIDEO, Paragliding -->
         <div>
           <h4>Paragliding</h4>
         </div>
+        <!-- CARDS, Paragliding -->
         <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
-          <div class="card-header">99€ / person</div>
+          <div class="card-header">79€ / person</div>
           <div class="card-body">
-            <h5 class="card-title">Experience Dublin from above, one life-time experience!</h5>
-            <p class="card-text">
+            <h5 class="card-title">Imagine yourself cruising over the landscape of Dublin with a view you can only dream off.
+            Wittness sensational panoramic views</h5>
               <ul class="card-text text-left">
-                <li>60 min</li>
+                <li>30 min paragliding</li>
                 <li>Gear and insurance included</li>
-            </p>
+          </ul>
           </div>
         </div>
       </div>
+      <!-- /CARDS, Paragliding -->
       <div class="col-md-4 py-2">
+        <!-- VIDEO, Scuba diving -->
         <div class="embed-responsive embed-responsive-16by9 video-shadow">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8JHQ3von5OU" allowfullscreen></iframe>
         </div>
+         <!-- /VIDEO, Scuba diving -->
         <div>
           <h4>Scuba Diving</h4>
         </div>
+        <!--CARDS, Scuba diving -->
         <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
           <div class="card-header">99€ / person</div>
           <div class="card-body">
-            <h5 class="card-title">Experience Dublin from above, one life-time experience!</h5>
-            <p class="card-text">
+            <h5 class="card-title">Have you ever wondered what it's like to breathe underwater? 
+            Get a introduction to what it takes to explore Dublins wildlife and environment from down under.</h5>
               <ul class="card-text text-left">
-                <li>60 min</li>
+                <li>60 min scuba diving</li>
                 <li>Gear and insurance included</li>
               </ul>
-              </p>
           </div>
         </div>
       </div>
     </div>
+    <!-- /CARDS, Scuba diving -->
+    <!-- BUTTON, Videos section -->
     <div class="row ">
       <div class="col-12 py-5 ">
         <button type="button" class="btn btn-primary btn-md media-hover" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Order Now!</button>
       </div>
     </div>
+    <!-- /BUTTON, Videos section -->
   </section>
   <!-- /VIDEOS Section -->
-
+  
   <!--CONTACT Section -->
   <section class="container-fluid contact-container text-center" id="contact-section">
     <div class="row">
@@ -286,17 +313,19 @@
     </div>
     <div class="row">
       <!-- AUDIO -->
+      <!--Audio is placed for the UX, while filling in the contact form.
+      For smaller devices audioplayer shows on it's own width for better UX-->
       <div class="col-sm-6">
         <h5>Bucket List Adventures wishes you a great day! :)</h5>
         <h5>Summer</h5>
         <audio src="assets/audio/summer.mp3" controls class="media-hover"></audio>
       </div>
       <!-- /AUDIO -->
-
       <!-- CONTACT FORM -->
+      <!--An easy to use Form is placed for the UX, if potential customers have further questions.
+      For smaller devices contact form shows on it's own width for better UX-->
       <div class="col-sm-6">
         <h5>Contact us</h5>
-
         <form style="margin: 0% 10%;">
           <div class="form-group col-12">
             <input type="text" class="form-control" id="name" placeholder="Name:">
@@ -312,15 +341,15 @@
         <!-- /CONTACT FORM -->
       </div>
     </div>
-
   </section>
   <!-- /CONTACT Section -->
 
-  <!-- FOOTER -->
+  <!-- FOOTER Section -->
   <footer class="container-footer container-fluid text-center">
-
-    <!-- ICONS/FOOTER CONTACT -->
+    <!-- FOOTER CONTACT -->
     <div class="row">
+      <!--Further information about the company is visually placed.
+      For smaller devices it shows one icon in width for better UX-->
       <div class="col-md-4">
         <i class="fa fa-map-marker media-hover mx-2" aria-hidden="true"></i>
         <p class="mb-3" style="font-size: 12px;">111 Dublin street, Dublin</p>
@@ -334,12 +363,13 @@
         <p class="mb-3" style="font-size: 12px;">+353 1 122 3344</p>
       </div>
     </div>
-  
-    <!-- /ICONS/FOOTER CONTACT -->
-
+    <!-- /FOOTER CONTACT -->
     <!-- SOCIAL MEDIA LINKS -->
     <div class="row">
       <div class="col">
+        <!--Social media icons are linked to social media plattforms,
+        so potential customers can keep up to date and find more information.
+        Social media icons are centered and placed next to each other, for easy UX-->
         <ul class="list-inline social-media-links mt-3">
           <li class="list-inline-item">
             <a href="https://www.facebook.com/" target="_blank">
@@ -365,7 +395,6 @@
       </div>
     </div>
     <!-- /SOCIAL MEDIA LINKS -->
-
     <!-- COPYRIGHT -->
     <div class="row">
       <div class="col">
@@ -374,11 +403,13 @@
     </div>
     <!-- /COPYRIGHT -->
   </footer>
-  <!-- /FOOTER -->
+  <!-- /FOOTER Section -->
 
+<!--SCRIPTS & PLUG-INS-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--SCRIPTS & PLUG-INS-->
 </body>
 
 </html>

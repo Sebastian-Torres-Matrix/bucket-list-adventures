@@ -1,3 +1,5 @@
+
+/*-------------OVERALL----------*/
 body {
     font-family: 'Roboto', sans-serif;
     color: #fafafa;
@@ -7,92 +9,9 @@ body {
 .container-fluid {
     padding: 48px 16px;
 }
-
-.container-footer {
-    padding: 25px 0px 0px 0px;
-}
-
-.card-header {
-    font-size: large;
-    border-bottom: solid 1px #767676;
-}
-
-.card-title {
-    font-size: large;
-}
-
-
-.card-text {
-    font-size: small;
-}
-
-.fa-video-camera,
-.fa-camera {
-    font-size: 40px;
-    padding: 20px;
-}
-
-.fa-arrow-down {
-    color: #fafafa;
-}
-
-
-a {
-    color: #fafafa;
-    text-decoration: none;
-    background-color: transparent;
-}
-
-a:hover {
-    color: #fafafa;
-    text-decoration: none;
-}
-
-.navbar-collapse {
-    justify-content: flex-end;
-}
-
-.card-title {
-    margin: 16px 0px;
-}
-
-.card {
-    margin: auto;
-    border: none;
-}
-
-.card-header,
-.card-body {
-    background-color: #343a40;
-}
-
-.card-body {
-    padding-top: 0px;
-}
-
-.jumbotron {
-    padding: 1px 0px;
-    margin: 0px auto;
-    max-width: 80%;
-    max-height: min-content;
-    background-color: #343a40;
-}
-
-.display-4 {
-    font-weight: 300;
-    line-height: 1.1;
-    font-size: xx-large;
-    margin: 0;
-}
+/*-------------OVERALL----------*/
 
 /*------------------HEADINGS & TEXT------------------*/
-
-h1 {
-    margin-top: 30px;
-    padding: 15px;
-    font-weight: 600;
-}
-
 
 p {
     margin-top: 0;
@@ -101,12 +20,16 @@ p {
     font-weight: 500;
 }
 
+h1 {
+    margin-top: 30px;
+    padding: 15px;
+    font-weight: 600;
+}
 
 h2 {
     margin-bottom: 20px;
     text-decoration: underline;
 }
-
 
 h3 {
     font-size: 20px;
@@ -124,25 +47,6 @@ h5 {
     margin-top: 40px;
 }
 
-.quote-text {
-    margin-top: 6px;
-    margin-bottom: 0px;
-}
-
-.quote-name {
-    margin-bottom: 25px;
-}
-
-.modal-title {
-    padding: 2px;
-    margin-top: 0px;
-}
-
-.gallery-subtitle {
-    padding: 2px;
-    margin: 10px 0px 20px 0px;
-}
-
 /*------------------/HEADINGS & TEXT------------------*/
 
 /*------------------BACKGROUNDS------------------*/
@@ -152,12 +56,7 @@ h5 {
 .videos-container,
 .contact-container {
     background-size: cover;
-   
-   
-    
     align-items: center;
-   
-   
     justify-content: center;
 }
 
@@ -193,6 +92,10 @@ h5 {
     margin-left: 5px;
 }
 
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
 .navbar .navbar-nav a {
     opacity: 0.8;
     font-size: large;
@@ -211,7 +114,7 @@ h5 {
 
 /*------------------/NAVBAR------------------*/
 
-/*------------------CAROUSEL------------------*/
+/*------------------CAROUSEL, Landing Page------------------*/
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -237,9 +140,45 @@ h5 {
     width: auto;
 }
 
-/*------------------/CAROUSEL------------------*/
+/*------------------/CAROUSEL, Landing Page------------------*/
+
+/*------------------JUMBOTRON, Landing Page------------------*/
+.jumbotron {
+    padding: 1px 0px;
+    margin: 0px auto;
+    max-width: 80%;
+    max-height: min-content;
+    background-color: #343a40;
+}
+
+.display-4 {
+    font-weight: 300;
+    line-height: 1.1;
+    font-size: xx-large;
+    margin: 0;
+}
+
+/*------------------/JUMBOTRON, Landing Page------------------*/
 
 /*------------------MODAL, Landing Page------------------*/
+
+.modal-title {
+    padding: 2px;
+    margin-top: 0px;
+}
+
+.modal-content {
+    background-color: #343a40;
+    border: 5px solid #fafafa;
+    border-radius: 5px;
+    width: 350px;
+    height: 500px;
+    margin-left: 16%;
+}
+
+.modal-header .close {
+    color: #fafafa;
+}
 
 .modal-header {
     display: block;
@@ -252,22 +191,75 @@ h5 {
     padding: 0px 16px;
 }
 
-.modal-content {
-    background-color: lightblue;
-    border: 5px solid #fafafa;
-    border-radius: 5px;
-    width: 350px;
-    height: 500px;
-    margin-left: 16%;
-}
-
 .modal-footer {
     border-top: 0;
     padding: 0px 16px;
     margin-bottom: 20px;
 }
 
+a {
+    color: #fafafa;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #fafafa;
+    text-decoration: none;
+}
 /*------------------/MODAL, Landing Page------------------*/
+
+
+/*------------------GALLERY Page, PADDINGS & MARGIN--------*/
+
+.quote-text {
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.quote-name {
+    margin-bottom: 25px;
+}
+
+.gallery-subtitle {
+    padding: 2px;
+    margin: 10px 0px 20px 0px;
+}
+/*------------------/GALLERY Page, PADDINGS & MARGIN--------*/
+
+/*------------------CARDS, Video Page------------------*/
+
+.card-header {
+    font-size: large;
+    border-bottom: solid 1px #767676;
+}
+
+.card-title {
+    font-size: large;
+}
+
+.card-text {
+    font-size: small;
+}
+
+.card-title {
+    margin: 16px 0px;
+}
+
+.card {
+    margin: auto;
+    border: none;
+}
+
+.card-header,
+.card-body {
+    background-color: #343a40;
+}
+
+.card-body {
+    padding-top: 0px;
+}
+/*------------------/CARDS, Video Page------------------*/
 
 /*------------------BUTTONS------------------*/
 
@@ -307,6 +299,22 @@ h5 {
 }
 
 /*------------------/SHADOW------------------*/
+
+
+/*-----------------ICONS, FONT AWESOME--------*/
+
+.fa-video-camera,
+.fa-camera {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.fa-arrow-down {
+    color: #fafafa;
+}
+
+/*-----------------/ICONS, FONT AWESOME--------*/
+
 
 /*------------------HOVER------------------*/
 
@@ -351,6 +359,10 @@ footer {
 .copyright {
     font-size: 15px;
     color: #fafafa;
+}
+
+.container-footer {
+    padding: 25px 0px 0px 0px;
 }
 
 /*------------------/FOOTER (Social Media & Copywright------------------*/
