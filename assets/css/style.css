@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500,700&display=swap');
 
 /*-------------OVERALL----------*/
 body {
@@ -7,47 +8,48 @@ body {
 }
 
 .container-fluid {
-    padding: 48px 16px;
+    padding: 3rem 1rem;
 }
-/*-------------OVERALL----------*/
+
+.row {
+    margin: 0;
+}
 
 /*------------------HEADINGS & TEXT------------------*/
 
 p {
     margin-top: 0;
-    margin-bottom: 30px;
-    font-size: 20px;
+    margin-bottom: 1.9rem;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
 h1 {
-    margin-top: 30px;
-    padding: 15px;
+    margin-top: 1.9rem;
+    padding: 1rem;
     font-weight: 600;
 }
 
 h2 {
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     text-decoration: underline;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 0;
     line-height: 0;
 }
 
 h4 {
     padding: 2px;
-    margin: 10px 0px 40px 0px;
+    margin: 0.6rem 0 2.5rem 0;
 }
 
 h5 {
     padding: 2px;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
-
-/*------------------/HEADINGS & TEXT------------------*/
 
 /*------------------BACKGROUNDS------------------*/
 
@@ -58,27 +60,24 @@ h5 {
     background-size: cover;
     align-items: center;
     justify-content: center;
+    background: no-repeat;
+    background-position: center center fixed;
 }
 
-.landing-page-container {
-    background: url("../images/bg-landing-page.jpg") no-repeat center center fixed;
+.landing-page-container,
+.contact-container {
+    background: #014374;
 }
 
 .gallery-container {
-    background: url("../images/bg-gallery.jpg") no-repeat center center fixed;
+    background: url("../images/bg-gallery.jpg");
 }
 
 .videos-container {
-    background: url("../images/bg-videos.jpg") no-repeat center center fixed;
+    background: url("../images/bg-videos.jpg");
 }
 
-.contact-container {
-    background: url("../images/bg-contact.jpg") no-repeat center center fixed;
-}
-
-/*------------------/BACKGROUNDS------------------*/
-
-/*------------------NAVBAR------------------*/
+/*------------------NAVBAR*/
 
 .navbar-brand {
     background: url("../images/navbar-icon-airballon.jpg");
@@ -88,7 +87,7 @@ h5 {
     width: 50px;
     height: 50px;
     transition: all 1s ease-in-out;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     margin-left: 5px;
 }
 
@@ -98,12 +97,12 @@ h5 {
 
 .navbar .navbar-nav a {
     opacity: 0.8;
-    font-size: large;
+    font-size: 1.1rem;
 }
 
 .navbar .navbar-nav a:hover {
     opacity: 1;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 @media (max-width: 767px) {
@@ -111,8 +110,6 @@ h5 {
         text-align: right;
     }
 }
-
-/*------------------/NAVBAR------------------*/
 
 /*------------------CAROUSEL, Landing Page------------------*/
 
@@ -123,7 +120,7 @@ h5 {
 
 .carousel {
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .img-carousel {
@@ -140,12 +137,10 @@ h5 {
     width: auto;
 }
 
-/*------------------/CAROUSEL, Landing Page------------------*/
-
 /*------------------JUMBOTRON, Landing Page------------------*/
 .jumbotron {
-    padding: 1px 0px;
-    margin: 0px auto;
+    padding: 1px 0;
+    margin: 0 auto;
     max-width: 80%;
     max-height: min-content;
     background-color: #343a40;
@@ -154,17 +149,15 @@ h5 {
 .display-4 {
     font-weight: 300;
     line-height: 1.1;
-    font-size: xx-large;
+    font-size: 2rem;
     margin: 0;
 }
-
-/*------------------/JUMBOTRON, Landing Page------------------*/
 
 /*------------------MODAL, Landing Page------------------*/
 
 .modal-title {
     padding: 2px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .modal-content {
@@ -183,18 +176,18 @@ h5 {
 .modal-header {
     display: block;
     height: 80px;
-    border-bottom: 1px solid white;
-    margin-bottom: 10px;
+    border-bottom: 1px solid #fafafa;
+    margin-bottom: 0.6rem;
 }
 
 .modal-body {
-    padding: 0px 16px;
+    padding: 0 1rem;
 }
 
 .modal-footer {
     border-top: 0;
-    padding: 0px 16px;
-    margin-bottom: 20px;
+    padding: 0 1rem;
+    margin-bottom: 1.25rem;
 }
 
 a {
@@ -207,43 +200,40 @@ a:hover {
     color: #fafafa;
     text-decoration: none;
 }
-/*------------------/MODAL, Landing Page------------------*/
-
 
 /*------------------GALLERY Page, PADDINGS & MARGIN--------*/
 
 .quote-text {
     margin-top: 6px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .quote-name {
-    margin-bottom: 25px;
+    margin-bottom: 1.6rem;
 }
 
 .gallery-subtitle {
     padding: 2px;
-    margin: 10px 0px 20px 0px;
+    margin: 0.6rem 0 1.25rem 0;
 }
-/*------------------/GALLERY Page, PADDINGS & MARGIN--------*/
 
 /*------------------CARDS, Video Page------------------*/
 
 .card-header {
-    font-size: large;
+    font-size: 1.1rem;
     border-bottom: solid 1px #767676;
 }
 
 .card-title {
-    font-size: large;
+    font-size: 1.1rem;
 }
 
 .card-text {
-    font-size: small;
+    font-size: 0.8rem;
 }
 
 .card-title {
-    margin: 16px 0px;
+    margin: 1rem 0;
 }
 
 .card {
@@ -257,64 +247,51 @@ a:hover {
 }
 
 .card-body {
-    padding-top: 0px;
+    padding-top: 0;
 }
-/*------------------/CARDS, Video Page------------------*/
 
 /*------------------BUTTONS------------------*/
 
 .btn-primary {
-    color: #fff;
-    background-color: #97d92d;
-    border: 0px;
-    margin: 0px;
+    margin: 0;
 }
 
 .btn-success {
-    color: #fff;
-    background-color: #97d92d;
-    border: 0px;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
+.btn-primary,
+.btn-success, 
 .btn-warning {
     color: #fff;
     background-color: #97d92d;
-    border: 0px;
+    border: 0;
 }
-
-/*------------------/BUTTONS------------------*/
 
 /*------------------SHADOW------------------*/
 
 .img-gallery {
     width: 90%;
     height: auto;
-    box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
 }
 
+.img-gallery,
 .card,
 .video-shadow {
-    box-shadow: 0px 7px 14px 5px rgba(0, 0, 0, 0.38);
+    box-shadow: 0 0.44rem 0.88rem 0.31rem rgba(0, 0, 0, 0.38);
 }
-
-/*------------------/SHADOW------------------*/
-
 
 /*-----------------ICONS, FONT AWESOME--------*/
 
 .fa-video-camera,
 .fa-camera {
-    font-size: 40px;
-    padding: 20px;
+    font-size: 2.5rem;
+    padding: 1.25rem;
 }
 
 .fa-arrow-down {
     color: #fafafa;
 }
-
-/*-----------------/ICONS, FONT AWESOME--------*/
-
 
 /*------------------HOVER------------------*/
 
@@ -336,11 +313,9 @@ a:hover {
 
 .navbar .navbar-brand i:hover {
     opacity: 1;
-    font-weight: bold;
+    font-weight: 700;
     transform: scale(1.2);
 }
-
-/*------------------/HOVER------------------*/
 
 /*------------------FOOTER (Social Media & Copywright------------------*/
 
@@ -352,20 +327,18 @@ footer {
 }
 
 .social-media-links li a i {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: #fafafa;
 }
 
 .copyright {
-    font-size: 15px;
+    font-size: 1rem;
     color: #fafafa;
 }
 
 .container-footer {
-    padding: 25px 0px 0px 0px;
+    padding: 1.6rem 0 0 0;
 }
-
-/*------------------/FOOTER (Social Media & Copywright------------------*/
 
 /*------------------MEDIA QUERIES------------------*/
 
@@ -410,8 +383,6 @@ footer {
 
     .responsive-576 {
         width: 80%;
-        margin-left: 60px;
+        margin-left: 3.75rem;
     }
 }
-
-/*------------------/MEDIA QUERIES------------------*/
