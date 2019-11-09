@@ -81,14 +81,14 @@ Also with links to social media channels, for the user to get more information o
 
 
 ## Technologies Used
-* __Cloud9__ was the cloud-based IDE used, to write, run, and debug code with the web browser and to create the website.
 * __HTML5__ was the language used to structure and present content for the web
 * __CSS3__ was the language used in the styling and formatting the website content, to improve the UX.
-* __Bootstrap__ is a front-end component library, that was used to build responsive, mobile-first projects on the website. 
-* __Chrome Developer Tools__ was used to ensure that the responsive design worked properly.
-* __Git__ was used for version control, o have a working copy/snippet of the code and full change history on the local machine.
-* __FontAwesome__ was the prefered library, for the icons used on the website 
-* __Balsamiq__ was used to create the wireframes for the project.
+* [Cloud9](https://aws.amazon.com/cloud9/) was the cloud-based IDE used, to write, run, and debug code with the web browser and to create the website.
+* [Bootstrap](https://getbootstrap.com/) is a front-end component library, that was used to build responsive, mobile-first projects on the website. 
+* [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) was used to ensure that the responsive design worked properly.
+* [Git](https://git-scm.com/) was used for version control, o have a working copy/snippet of the code and full change history on the local machine.
+* [FontAwesome](https://fontawesome.com/) was the prefered library, for the icons used on the website 
+* [Balsamiq](https://balsamiq.com/) was used to create the wireframes for the project.
 
 
 ## Testing
@@ -148,30 +148,35 @@ https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cl
 ## Credits
 
 ### Codes
-Chris Coyier on CSS-tricks, for the [background-position](https://css-tricks.com/almanac/properties/b/background-position/)
+* [Background position](https://css-tricks.com/almanac/properties/b/background-position/), Chris Coyier on CSS-tricks 
+* [CCS Matic](https://cssmatic.com/box-shadow), for the box shadows generated.
 
 ### Animations
-* Favicon: [www.favicon.io](https://favicon.io/)
+* [Favicon.io](https://favicon.io/), for the favicon generated.
 * [Font Awesome](https://fontawesome.com/) , for the excellent open source gallery with icons.
 
 ### Media
 
 #### Landing page
-* Background image: [Photo by Elia Clerici on Unsplash](https://unsplash.com/photos/XIrIWKCQykg/)
-* Carousel, Air Ballon image: [Photo by Rich Martello on Unsplash](https://unsplash.com/photos/RXT1P2TUjwE)
-* Carousel, Scuba Diving image: [Photo by Pablo Heimplatz on Unsplash](https://unsplash.com/photos/R4679uf28lY)
-* Carousel, Scuba Diving image: [Photo by Sebastian Pena Lambarri on Unsplash](https://unsplash.com/photos/44r12Ck_CoI)
+[Unsplash](https://unsplash.com/):
+* Carousel, Air Ballon image: [Photo by Rich Martello](https://unsplash.com/photos/RXT1P2TUjwE)
+* Carousel, Scuba Diving image: [Photo by Pablo Heimplatz](https://unsplash.com/photos/R4679uf28lY)
+* Carousel, Scuba Diving image: [Photo by Sebastian Pena Lambarri](https://unsplash.com/photos/44r12Ck_CoI)
 
 #### Gallery section
-* Background image: [Photo by Luke Chesser on Unsplash](https://unsplash.com/photos/pJadQetzTkI)
-* Paragliding image: [Photo by behnam jaafarianpoor on Unsplash](https://unsplash.com/photos/R4679uf28lY)
-* Scuba Diving image: [Photo by Sebastian Pena Lambarri on Unsplash](https://unsplash.com/photos/7i5HMCGupVw)
+[Unsplash](https://unsplash.com/):
+* Background image: [Photo by Luke Chesser](https://unsplash.com/photos/pJadQetzTkI)
+* Paragliding image: [Photo by behnam jaafarianpoor](https://unsplash.com/photos/R4679uf28lY)
+* Scuba Diving image: [Photo by Sebastian Pena Lambarri](https://unsplash.com/photos/7i5HMCGupVw)
+
+[Pexels](https://www.pexels.com/):
 * Air Ballon image: [Photo by Lad Fury from Pexels](https://www.pexels.com/photo/assorted-color-hot-air-balloon-lot-3091116/)
-* Girl & Guy, Quotes image: [Code Institute Github](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap/03-cleaning_up_our_content/images)
+
+[Code Institute Github](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4/tree/master/04-BeyondBootstrap/03-cleaning_up_our_content/images):
+* Girl & Guy, Quotes image
 
 #### Videos section
-* Background image: [Photo by Valentina Dominguez on Unsplash](https://unsplash.com/photos/8F_76DCNN2c)
-Videos were embedded through YouTube 
+Videos were embedded through [YouTube](https://www.youtube.com/?hl=sv&gl=SE): 
 * [Video, Air Ballon](https://www.youtube.com/watch?v=QYPe6JtL7bA&t=4s)
 * [Video, Scuba Diving](https://www.youtube.com/watch?v=8JHQ3von5OU&t=3s)
 * [Video, Paragliding](https://www.youtube.com/watch?v=LLgbWMPI5l0&t=2s)
@@ -180,7 +185,7 @@ Videos were embedded through YouTube
 * Background image: [Photo by Luke Chesser on Unsplash](https://unsplash.com/photos/pJadQetzTkI)
 
 ### Other resources and acknowledgements 
-* Fellow Code Institute students on Slack. 
+* Fellow Code Institute students on [Slack](https://slack.com/intl/en-se/). 
 For the support and feedback. 
 
 These websites, for the excellent content, with explanations and tutorials:
