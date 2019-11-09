@@ -27,13 +27,13 @@
       <ul class="navbar-nav">
 <!--Links in the navbar get higligthed when hovered, for better UX -->
         <li class="nav-item active mr-4">
-          <a class="nav-link" href="#gallery-section" style="color: white;">Gallery</a>
+          <a class="nav-link" href="#gallery-section">Gallery</a>
         </li>
         <li class="nav-item active mr-4">
-          <a class="nav-link" href="#videos-section" style="color: white;">Videos</a>
+          <a class="nav-link" href="#videos-section">Videos</a>
         </li>
         <li class="nav-item active mr-4">
-          <a class="nav-link" href="#contact-section" style="color: white;">Contact</a>
+          <a class="nav-link" href="#contact-section">Contact</a>
         </li>
       </ul>
     </div>
@@ -41,7 +41,7 @@
   <!-- /NAVBAR -->
 
   <!-- LANDING PAGE -->
-  <section class="container-fluid text-center landing-page-container" id="home-section">
+  <section class="container-fluid text-center" id="home-section">
     <div class="row">
       <div class="col-sm-12">
         <h1>Bucket List Adventures</h1>
@@ -95,14 +95,14 @@
     <!-- JUMBOTRON -->
     <!--Jumbotron, to highlight and welcome potential customers with brief information
     and spark further curiosity-->
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">The best adventures in Dublin! <i class="fa fa-thumbs-o-up"></i></h1>
-        <p class="lead">We offer the top 3 most desired bucket list adventures. Come and join us here in Dublin to live out your dreams. 
+   <div class="row">
+     <div class="col-sm-d text-center jumbotron">
+        <h1 class="display-jumbotron">The best adventures in Dublin! <i class="fa fa-thumbs-o-up"></i></h1>
+        <p class="px-4">We offer the top 3 most desired bucket list adventures. Come and join us here in Dublin to live out your dreams. 
         Our team takes care of you and makes sure that you get a safe, enjoyable and unforgettable experience!</p>
-        <p>For more information about our adventures, see down below
+        <p class="px-4">For more information about our adventures, see down below
           <a href="#gallery-section"><i class="fa fa-arrow-down"></i></a></p>
-      </div>
+    </div>
     </div>
     <!-- /JUMBOTRON -->
 
@@ -167,9 +167,9 @@
   <!-- /LANDING PAGE -->
 
   <!-- GALLERY Section -->
-  <section class="container-fluid gallery-container text-center" id="gallery-section">
+  <section class="container-fluid text-center" id="gallery-section">
     <div class="row">
-      <div class="col">
+      <div class="col-sm-12">
         <h1>Bucket List Adventures</h1>
         <i class="fa fa-camera" aria-hidden="true"></i>
         <h2>GALLERY</h2>
@@ -177,33 +177,33 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-sm-12 col-md-4">
         <img src="assets/images/gallery-airballon.jpg" class="img-gallery media-hover my-2" width=380 height=300 alt="Air Ballon image">
         <h4 class="gallery-subtitle ">Air Ballon</h4>
-        <img src="assets/images/gallery-girl-quote.png" class="rounded-circle media-hover mt-4" width=90 height=90 alt="Air Ballon image ">
+        <img src="assets/images/gallery-girl-quote.png" class="rounded-circle media-hover mt-4" alt="Air Ballon image ">
        <!--Quotes from past customers, gives potential customer ataste of what other think about the products provided.
        For smaller devices it shows one image at a time, for better UX-->
         <p class="quote-text">"Best day ever! "</p>
         <p class="quote-name">- Julie Dox</p>
       </div>
-      <div class="col-md-4 ">
+      <div class="col-sm-12 col-md-4 ">
         <img src="assets/images/gallery-paragliding.jpg" class="img-gallery media-hover my-2" width=380 height=300 alt="Paragliding image ">
         <h4 class="gallery-subtitle ">Paragliding</h4>
-        <img src="assets/images/gallery-guy1-quote.png" class="rounded-circle media-hover mt-4" width=90 height=90 alt="Air Ballon image ">
+        <img src="assets/images/gallery-guy1-quote.png" class="rounded-circle media-hover mt-4" alt="Air Ballon image ">
         <p class="quote-text">"Very cool! "</p>
         <p class="quote-name">- David Ottis</p>
       </div>
-      <div class="col-md-4 ">
+      <div class="col-sm-12 col-md-4 ">
         <img src="assets/images/gallery-scuba-diving.jpg" class="img-gallery media-hover my-2" width=380 height=300 alt="Scuba diving image ">
         <h4 class="gallery-subtitle">Scuba Diving</h4>
-        <img src="assets/images/gallery-guy2-quote.jpg" class="rounded-circle media-hover mt-4" width=90 height=90 alt="Air Ballon image ">
+        <img src="assets/images/gallery-guy2-quote.jpg" class="rounded-circle media-hover mt-4" alt="Air Ballon image ">
         <p class="quote-text">"What an experience! "</p>
         <p class="quote-name">- Sebastian Torres</p>
       </div>
     </div>
     <!-- BUTTON, Gallery section -->
     <div class="row">
-      <div class="col-12 my-4">
+      <div class="col-sm-12 my-4">
         <button type="button" class="btn btn-primary media-hover" data-toggle="modal" data-target="#exampleModal">Order Now!</button>
       </div>
     </div>
@@ -211,9 +211,9 @@
   </section>
   <!-- /GALLERY Section -->
   <!-- VIDEOS Section -->
-  <section class="container-fluid videos-container text-center" id="videos-section">
+  <section class="container-fluid text-center" id="videos-section">
     <div class="row">
-      <div class="col-12">
+      <div class="col-sm-12">
         <h1>Bucket List Adventures</h1>
         <i class="fa fa-video-camera" aria-hidden="true"></i>
         <h2>VIDEOS</h2>
@@ -222,8 +222,8 @@
       </div>
     </div>
     <!-- VIDEO, Air ballon -->
-    <div class="row responsive-576">
-      <div class="col-md-4 py-2">
+    <div class="row videos-responsive-576">
+      <div class="col-sm-12 col-md-4 py-2">
         <div class="embed-responsive embed-responsive-16by9 text-center video-shadow">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QYPe6JtL7bA" allowfullscreen></iframe>
         </div>
@@ -234,11 +234,11 @@
         <!-- CARDS, Air ballon -->
 <!--Cards are placed under each product, with price and information about the product.
 Color theme for the cards follow the same pattern as the rest of the website, to keep it clean and simple-->
-        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+        <div class="card text-white bg-info mb-3">
           <div class="card-header">99€ / person</div>
           <div class="card-body">
             <h5 class="card-title">Experience Dublin from above, a one in a life-time experience! 
-            Relax and enjoy among the clouds with the views from the sky. </h5>
+            Relax and enjoy among the clouds with the views from the sky.</h5>
               <ul class="card-text text-left">
                 <li>60 min ballon ride</li>
                 <li>Gear and insurance included</li>
@@ -247,7 +247,7 @@ Color theme for the cards follow the same pattern as the rest of the website, to
         </div>
       </div>
       <!-- /CARDS, Air ballon -->
-      <div class="col-md-4 py-2">
+      <div class="col-sm-12 col-md-4 py-2">
         <!-- VIDEO, Paragliding -->
         <div class="embed-responsive embed-responsive-16by9 video-shadow">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LLgbWMPI5l0" allowfullscreen></iframe>
@@ -257,7 +257,7 @@ Color theme for the cards follow the same pattern as the rest of the website, to
           <h4>Paragliding</h4>
         </div>
         <!-- CARDS, Paragliding -->
-        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+        <div class="card text-white bg-info mb-3">
           <div class="card-header">99€ / person</div>
           <div class="card-body">
             <h5 class="card-title"> Wittness sensational panoramic views. Imagine yourself cruising over the landscapes of 
@@ -271,7 +271,7 @@ Color theme for the cards follow the same pattern as the rest of the website, to
         </div>
       </div>
       <!-- /CARDS, Paragliding -->
-      <div class="col-md-4 py-2">
+      <div class="col-sm-12 col-md-4 py-2">
         <!-- VIDEO, Scuba diving -->
         <div class="embed-responsive embed-responsive-16by9 video-shadow">
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8JHQ3von5OU" allowfullscreen></iframe>
@@ -281,11 +281,11 @@ Color theme for the cards follow the same pattern as the rest of the website, to
           <h4>Scuba Diving</h4>
         </div>
         <!--CARDS, Scuba diving -->
-        <div class="card text-white bg-info mb-3" style="max-width: 18rem;">
+        <div class="card mb-3">
           <div class="card-header">99€ / person</div>
           <div class="card-body">
-            <h5 class="card-title">Have you ever wondered what it's like to breathe underwater? 
-            Explore Dublins wildlife and environment from down under.</h5>
+            <h5 class="card-title">Have you ever wondered what it is like to breathe underwater? 
+             Explore and  enjoy Dublins wildlife and environment from down under.</h5>
               <ul class="card-text text-left">
                 <li>60 min scuba diving</li>
                 <li>Gear and insurance included</li>
@@ -297,7 +297,7 @@ Color theme for the cards follow the same pattern as the rest of the website, to
     <!-- /CARDS, Scuba diving -->
     <!-- BUTTON, Videos section -->
     <div class="row ">
-      <div class="col-12 py-5 ">
+      <div class="col-sm-12 py-5 ">
         <button type="button" class="btn btn-primary btn-md media-hover" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Order Now!</button>
       </div>
     </div>
@@ -306,9 +306,9 @@ Color theme for the cards follow the same pattern as the rest of the website, to
   <!-- /VIDEOS Section -->
   
   <!--CONTACT Section -->
-  <section class="container-fluid contact-container text-center" id="contact-section">
+  <section class="container-fluid text-center" id="contact-section">
     <div class="row">
-      <div class="col-12">
+      <div class="col-sm-12">
         <h1>CONTACT</h1>
       </div>
     </div>
@@ -327,14 +327,14 @@ Color theme for the cards follow the same pattern as the rest of the website, to
       For smaller devices contact form shows on it's own width for better UX-->
       <div class="col-sm-6">
         <h5>Contact us</h5>
-        <form style="margin: 0% 10%;">
-          <div class="form-group col-12">
+        <form class="contact-form">
+          <div class="form-group col-sm-12">
             <input type="text" class="form-control" id="name" placeholder="Name:">
           </div>
-          <div class="form-group col-12">
+          <div class="form-group col-sm-12">
             <input type="email" class="form-control" id="email" placeholder="Email:">
           </div>
-          <div class="form-group col-12">
+          <div class="form-group col-sm-12">
             <textarea class="form-control" id="textarea" placeholder="Message:" rows="4"></textarea>
             <button type="submit" class="btn btn-success btn-md media-hover mb-4 mr-auto" data-toggle="modal" data-target="#home-section">Send</button>
           </div>
@@ -346,28 +346,28 @@ Color theme for the cards follow the same pattern as the rest of the website, to
   <!-- /CONTACT Section -->
 
   <!-- FOOTER Section -->
-  <footer class="container-footer container-fluid text-center">
+  <footer class="container-fluid text-center container-footer">
     <!-- FOOTER CONTACT -->
     <div class="row">
       <!--Further information about the company is visually placed.
       For smaller devices it shows one icon in width for better UX-->
-      <div class="col-md-4">
+      <div class="col-sm-12 col-md-4">
         <i class="fa fa-map-marker media-hover mx-2" aria-hidden="true"></i>
-        <p class="mb-3" style="font-size: 12px;">111 Dublin street, Dublin</p>
+        <p class="mb-3 footer-contact-icons">111 Dublin street, Dublin</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-sm-12 col-md-4">
         <i class="fa fa-envelope media-hover mx-2" aria-hidden="true"></i>
-        <p class="mb-3" style="font-size: 12px;">support@bladventures.com</p>
+        <p class="mb-3 footer-contact-icons">support@bladventures.com</p>
       </div>
-      <div class="col-md-4 ">
+      <div class="col-sm-12 col-md-4 ">
         <i class="fa fa-phone media-hover mx-2" aria-hidden="true"></i>
-        <p class="mb-3" style="font-size: 12px;">+353 1 122 3344</p>
+        <p class="mb-3 footer-contact-icons">+353 1 122 3344</p>
       </div>
     </div>
     <!-- /FOOTER CONTACT -->
     <!-- SOCIAL MEDIA LINKS -->
     <div class="row">
-      <div class="col">
+      <div class="col-sm-12">
         <!--Social media icons are linked to social media plattforms,
         so potential customers can keep up to date and find more information.
         Social media icons are centered and placed next to each other, for easy UX-->
@@ -398,7 +398,7 @@ Color theme for the cards follow the same pattern as the rest of the website, to
     <!-- /SOCIAL MEDIA LINKS -->
     <!-- COPYRIGHT -->
     <div class="row">
-      <div class="col">
+      <div class="col-sm-12">
         <p class="copyright">Copyright © Bucket List Adventures 2019. All rights reserved.</p>
       </div>
     </div>
