@@ -55,29 +55,33 @@ h5 {
 
 /*----BACKGROUNDS---*/
 
-#home-section,
-#gallery-section,
-#videos-section,
-#contact-section {
-    background-size: cover;
+.container-fluid,
+.footer {
     align-items: center;
     justify-content: center;
     background: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
 }
 
-#home-section,
-#contact-section {
-    background: #014374;
+#home-section {
+    background: url(https://cdn.pixabay.com/photo/2016/03/09/09/35/baloon-1245886_1280.jpg);
+    background-size: cover;
 }
 
 #gallery-section {
-    background: #353521;
+    background: url(https://www.thefoodcop.com/wp-content/uploads/2015/06/c4.jpg);
+    background-size: cover;
 }
 
 #videos-section {
     background: url("../images/bg-videos.jpg");
+    background-size: cover;
+}
+
+#contact-section {
+    background: #014374;  
 }
 
 /*----NAVBAR----*/
@@ -325,15 +329,9 @@ a:hover {
 
 /*----FOOTER (Social Media & Copywright----*/
 
-footer {
-    background: #343a40;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .container-footer {
     padding: 1.6rem 0 0 0;
+    background: #343a40;
 }
 
 .footer-contact-icons {
