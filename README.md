@@ -51,7 +51,7 @@ the services offered, before making a decision. The users can also keep up with 
 through the social media channels.
 
 
-* __Wireframes__, here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/bucket-list-adventures/tree/master/assets/Wireframes)
+* Here is the link to see the [Wireframes](https://github.com/Sebastian-Torres-Matrix/bucket-list-adventures/blob/master/assets/wireframes/wireframes.pdf)
 
 ## Features
 #### Landing page
