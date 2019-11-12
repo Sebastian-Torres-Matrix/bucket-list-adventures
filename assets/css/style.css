@@ -57,8 +57,12 @@ h5 {
 
 .container-fluid,
 .footer {
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     background: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -93,13 +97,17 @@ h5 {
     background-size: cover;
     width: 50px;
     height: 50px;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
     border-radius: 1.25rem;
     margin-left: 5px;
 }
 
 .navbar-collapse {
-    justify-content: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
 }
 
 .nav-link {
@@ -296,7 +304,8 @@ a:hover {
 .img-gallery,
 .card,
 .video-shadow {
-    box-shadow: 0 0.44rem 0.88rem 0.31rem rgba(0, 0, 0, 0.38);
+    -webkit-box-shadow: 0 0.44rem 0.88rem 0.31rem rgba(0, 0, 0, 0.38);
+            box-shadow: 0 0.44rem 0.88rem 0.31rem rgba(0, 0, 0, 0.38);
 }
 
 /*----ICONS, FONT AWESOME----*/
@@ -318,13 +327,17 @@ a:hover {
 .media-hover:hover,
 .fa-arrow-down:hover {
     opacity: 1;
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 .navbar .navbar-brand i:hover {
     opacity: 1;
     font-weight: 700;
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
 }
 
 /*----FOOTER (Social Media & Copywright----*/
@@ -402,6 +415,8 @@ a:hover {
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .card {
+        width: -webkit-max-content;
+        width: -moz-max-content;
         width: max-content;
         height: auto;
 
