@@ -182,14 +182,18 @@ For more information about how to __Git Clone__, you can find it [here](https://
 ### Media
 
 #### Landing page
+[Pixabay](https://pixabay.com/)
+* Background image: [Photo from Pixabay](https://pixabay.com/photos/baloon-hot-air-baloon-adventure-sky-1245886/)
+
 [Unsplash](https://unsplash.com/):
 * Carousel, Air Ballon image: [Photo by Rich Martello](https://unsplash.com/photos/RXT1P2TUjwE)
 * Carousel, Scuba Diving image: [Photo by Pablo Heimplatz](https://unsplash.com/photos/R4679uf28lY)
 * Carousel, Scuba Diving image: [Photo by Sebastian Pena Lambarri](https://unsplash.com/photos/44r12Ck_CoI)
 
 #### Gallery section
+* Background image: [Photo by TheFoodCop](https://www.thefoodcop.com/wp-content/uploads/2015/06/c4.jpg)
+
 [Unsplash](https://unsplash.com/):
-* Background image: [Photo by Luke Chesser](https://unsplash.com/photos/pJadQetzTkI)
 * Paragliding image: [Photo by behnam jaafarianpoor](https://unsplash.com/photos/R4679uf28lY)
 * Scuba Diving image: [Photo by Sebastian Pena Lambarri](https://unsplash.com/photos/7i5HMCGupVw)
 
@@ -211,6 +215,8 @@ Videos were embedded through [YouTube](https://www.youtube.com/?hl=sv&gl=SE):
 ### Other resources and acknowledgements 
 * Fellow Code Institute students on [Slack](https://slack.com/intl/en-se/). 
 For the support and feedback. 
+
+* Simen Daehlin, for excellent mentorship, with great guidance and feedback. 
 
 These websites, for the excellent content, with explanations and tutorials:
 * [W3Schools](https://www.w3schools.com/) 
