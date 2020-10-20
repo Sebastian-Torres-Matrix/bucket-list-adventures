@@ -1,4 +1,6 @@
 # Bucket List Adventures
+![](assets/images/mockup.png)
+
 
 ## Introduction
 This website was created based on the skills learned from Code Institute’s Full Stack Software Developement course. 
